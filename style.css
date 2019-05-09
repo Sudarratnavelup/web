@@ -1,7 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html {
+    scroll-behavior: smooth;
+  }
 .font{
-   font-family: 'Open Sans',serif;
+   font-family: 'Roboto', sans-serif;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -11,7 +13,7 @@
     height: auto;
 }
 .homebg{
-    background-image:linear-gradient(#4251c5,#425ccb);
+    background-image:linear-gradient(#4258c9,#4258c9);
     width: 100%;
     height: 100vh;
     position: relative;
@@ -35,7 +37,7 @@ section#homeconent {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    padding-top: 7rem;
     color: white;
 }
 #downloadbtn{
@@ -54,6 +56,41 @@ section#homeconent {
     margin-left: auto;
     margin-right: auto;
 }
+#iyal_features{
+    padding-top: 4rem ; 
+}
+#iyal_f_heading{
+    font-weight:700; letter-spacing: 3px;color: rgb(41, 41, 41);
+                    text-align: center;
+}
+#iyal_f_heading_sub{
+    color: rgb(41, 41, 41);
+    text-align: center;padding-bottom: 3rem
+}
+.card-text{
+    font-size: 12px;
+}
+.card-title{
+    font-size: 14px;
+    font-weight: 700;
+}
+section#iyal_works {
+    background: #e5e5e5;
+    width: 100%;
+    padding: 5rem;
+    border-radius: 15px;
+}
+#iyal_works ul{
+    top: 6rem; position: relative;
+}
+img.d-block.w-100 {
+    padding: 10rem;
+    background-color: #4258c9;
+    border-radius: 15px;
+}
+.carousel-control span.glyphicon {
+    color: red;
+}
 @media (max-width: 768px) { 
     .homebg{border-bottom-left-radius: 15%; border-bottom-right-radius: 15%;}
     #downloadbtn{ width: 45%;}
@@ -67,4 +104,41 @@ section#homeconent {
         width: 140px;
         height: auto;
     }
+    div#collapsibleNavId {
+        margin-top: 0rem;
+    }
+    a#navbutton {
+        margin-top: 1rem;
+    }
+    li.nav-item {
+        padding: 9px;
+        background-color: #162bba;
+    }
+    #iyal_features {
+        margin-top: -2rem;
+        padding-bottom: 2rem;
+    }
+    #iyal_f_heading{
+        font-weight:700; letter-spacing: 3px;color: rgb(41, 41, 41); text-align: center;font-size: 14pt;
+    }
+    #iyal_f_heading_sub{
+        color: rgb(41, 41, 41);
+        text-align: center;padding-bottom: 3rem;
+        font-size: 12pt;
+    }
+    
+    .col-lg.col-sm-12.col-md-4 {
+        margin-bottom: 1rem;
+    }
+    section#iyal_works {
+        background: #e5e5e5;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    #iyal_works ul{
+        top: 1rem; position: relative;
+    }
+ 
  }
+ 
